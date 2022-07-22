@@ -1,0 +1,33 @@
+@media screen and (max-width :1000px){
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin-top: 5px;
+    }
+    ul li{
+        height: 3vh;
+
+    }
+    .search{
+        padding-bottom: 5px;
+        width: 300px;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    .slides img{
+        width: 500px;
+    }
+    .cards{
+        overflow: scroll;
+        
+    }
+    .card{
+        margin: 0px;
+        width: 100%;
+    }
+    
+}
